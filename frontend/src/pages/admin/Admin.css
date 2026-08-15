@@ -1,0 +1,16 @@
+.admin-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.recent-job-row {
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-weight: 600;
+  transition: background-color var(--transition);
+}
+
+.recent-job-row:hover {
+  background-color: var(--color-background);
+}
